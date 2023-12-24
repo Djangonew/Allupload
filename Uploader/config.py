@@ -68,5 +68,5 @@ class Config(object):
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "NeroUploadbot")
     ADL_BOT_RQ = {}
     AUTH_USERS = list({int(x)
-                      for x in os.environ.get("AUTH_USERS", "1748872441").split()})
+                      for x in os.environ.get("AUTH_USERS", "").split()})
     AUTH_USERS.append(OWNER_ID)
