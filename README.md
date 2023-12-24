@@ -201,3 +201,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE
 -->
+
+To Heroku Me 
+
+<a href="https://heroku.com/deploy?template=https://github.com/Djangonew/Allupload"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku Button"></a>
