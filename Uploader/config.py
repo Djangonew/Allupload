@@ -35,7 +35,7 @@ logging.basicConfig(
 class Config(object):
     WEBHOOK = os.environ.get("BOT_TOKEN", False)
     # Get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6657098661:AAG8YB1M7vJ1Kfu6MI30w7WrL_vTQjWLT4s")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6794290071:AAEGM05KCekmieNoBfgP84Gs3CvrUSROnBM")
     # The Telegram API things
     API_ID = int(os.environ.get("API_ID", 20247370))
     API_HASH = os.environ.get("API_HASH", "813309fab8cd9fce260ce7269e543bdb")
@@ -64,8 +64,8 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 3700
 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1002005183024))
-    OWNER_ID = int(os.environ.get("OWNER_ID", "12356"))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "FileNerobot")
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1748872441"))
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "NeroUploadbot")
     ADL_BOT_RQ = {}
     AUTH_USERS = list({int(x)
                       for x in os.environ.get("AUTH_USERS", "1748872441").split()})
