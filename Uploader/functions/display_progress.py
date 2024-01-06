@@ -81,7 +81,7 @@ def huanbytes(size_in_bytes) -> str:
         size_in_bytes /= 1024
         index += 1
     try:
-        return f'{round(size_in_bytes, 2)}{SIZE_UNITS[index]}'
+        return f'{round(size_in_bytes, 4)}{SIZE_UNITS[index]}'
     except IndexError:
         return 'File too large'
 
@@ -97,7 +97,7 @@ def humanbytes(size):
     while size > power:
         size /= power
         n += 1
-    return f"{str(round(size, 2))} {Dic_powerN[n]}B"
+    return f"{str(round(size, 4))} {Dic_powerN[n]}B"
 
 
 def TimeFormatter(milliseconds: int) -> str:
