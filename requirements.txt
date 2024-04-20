@@ -3,7 +3,7 @@ beautifulsoup4
 hachoir
 numpy
 Pillow
-pyrogram==2.0.43
+pyrogram
 requests
 tgcrypto
 olefile
@@ -21,6 +21,6 @@ filesplit==4.0.0
 mega.py
 opencc
 wget
-youtube_dl
+yt-dlp
 Flask==2.3.2
 gunicorn==20.1.0
